@@ -22,6 +22,7 @@ export default {
   transport: {
     baseUrl: "http://llama.cpp.local:8080/v1/chat/completions",
     forceStream: true,
+    timeoutMs: 1800000,
   },
   models: [
     { id: "burra", name: "burra" },
